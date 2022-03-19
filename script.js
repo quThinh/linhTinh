@@ -13,24 +13,34 @@
 //     localStorage.setItem('Quynh', '0');
 // }
 
-localStorage.setItem('Bao', '0');
-var div1 = document.querySelector('.players');
-var div2 = document.createElement("div");
-div2.id = 'Bao';
-var span1 = document.createElement("span");
-div2.appendChild(span1);
-span1.classList.add("name");
-span1.innerHTML = "Bao";
-var button1 = document.createElement("button");
-div2.appendChild(button1);
-button1.innerHTML = "-";
-var span2 = document.createElement("span");
-div2.appendChild(span2);
-span2.classList.add("money");
-var button2 = document.createElement("button");
-div2.appendChild(button2);
-button2.innerHTML = "+";
-div1.appendChild(div2);
+for (var i = 0; i < localStorage.length; i++) {
+    if (localStorage.key(i) != 'cais' && localStorage.key(i) != 'num') {
+        var div1 = document.querySelector('.players');
+        var div2 = document.createElement("div");
+        div2.id = 'Bao';
+        var span1 = document.createElement("span");
+        div2.appendChild(span1);
+        span1.classList.add("name");
+        span1.innerHTML = localStorage.key(i);
+        var button1 = document.createElement("button");
+        div2.appendChild(button1);
+        button1.innerHTML = "-";
+        var span2 = document.createElement("span");
+        div2.appendChild(span2);
+        span2.classList.add("money");
+        var button2 = document.createElement("button");
+        div2.appendChild(button2);
+        button2.innerHTML = "+";
+        div1.appendChild(div2);
+    }
+
+}
+if(localStorage.getItem('Bao') === null){
+    localStorage.setItem('Bao', '0');
+}
+
+
+
 // gán mặc định cái cho Bảo
 let cais = localStorage.getItem('cais');
 if (cais === null) {
@@ -148,12 +158,12 @@ function vnd(event) {
         caisM = Number(caisM) - numM;
         localStorage.setItem(cais, caisM);
     }
-    
-    if(item.className == "name"){
+
+    if (item.className == "name") {
         addCais(item);
     }
 
-    if(item.className == "money"){
+    if (item.className == "money") {
         addCais2(item);
     }
 

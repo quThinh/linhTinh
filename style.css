@@ -11,21 +11,28 @@
 
 
 .add span{
+    width: 50px;
+    height: 50px;
     font-size: 25px;
     font-weight: bold;
     margin: auto;
     font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: inline;
+    padding-top: 13px;
+    margin-left: 18px;
 }
 
 
 .player-input{
     border-collapse: collapse;
+    width: 238px;
+    height: 55px;
     border: 1px solid #ddd;
     display: flex;
     font-size: 17px;
-    margin: 15px 0;
+    margin: 15px ;
     padding: 10px;
-    max-width: 40%;
     background-color: #b7cadd;
     color: #1a150e;
     
@@ -37,7 +44,7 @@
     font-size: 17px;
     width: 107px;
     height: 42px;
-    margin-top: 15px;
+    margin-top: 22px;
     background: rgb(62 143 147);
     border : 4px rgb(16, 82, 93) solid;
     margin-left: 35px;
@@ -100,13 +107,12 @@
 .addplayer-name{
     border-collapse: collapse;
     width: 238px;
-    height: 42px;
+    height: 55px;
     border: 1px solid #ddd;
     display: inline;
-    margin: 10px 0;
+    margin: 10px 12px;
+    padding: 10px;
     font-size: 17px;
-    padding: 0;
-    max-width: 13%;
     font-family: 'Lato', sans-serif;
     background-color: #b7cadd;
 }
@@ -118,6 +124,7 @@
     border : 4px rgb(16, 82, 93) solid;
     font-size: 17px;
     color: aliceblue;
+    margin-left: 35px;
 }
 
 
