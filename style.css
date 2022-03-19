@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add{
+    display: flex;
+}
+
+
+
+.add span{
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.player-input{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    display: flex;
+    font-size: 17px;
+    margin: 15px 0;
+    padding: 10px;
+    max-width: 40%;
+    background-color: #b7cadd;
+    color: #1a150e;
+    
+}
+
+.player-btn{
+    outline: none;
+    padding-left: 0px;
+    font-size: 17px;
+    width: 107px;
+    height: 42px;
+    margin-top: 15px;
+    background: rgb(62 143 147);
+    border : 4px rgb(16, 82, 93) solid;
+    margin-left: 35px;
+    color: aliceblue;
+}
+
+.players div{
+    height: 35px;
+    margin: 20px auto;
+}
+
+.name{
+    width: 70px;
+    font-family: 'Lato', sans-serif;
+    margin: auto 20px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.money{
+    width: 60px;
+    margin: auto 10px;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.players div button{
+    outline: none;
+    height: 100%;
+    background: rgb(65, 166, 197);
+    font-size: 20px;
+    width: 70px;
+    border: rgb(92 48 40 / 43%) solid;
+}
+
+.players .cais {
+    background: #AEB1B4;
+}
+
+.fa-solid .fa-check{
+    font-size: 15px;
+}
+
+.players div button:hover{
+    color:#f8b66a;
+    background: rgb(6, 44, 56);
+    border-bottom: black;
+    border: rgb(92 48 40 / 43%) solid;
+}
+
+.article {
+    background-image: url(1.jpg) 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.addplayer-name{
+    border-collapse: collapse;
+    width: 238px;
+    height: 42px;
+    border: 1px solid #ddd;
+    display: inline;
+    margin: 10px 0;
+    font-size: 17px;
+    padding: 0;
+    max-width: 13%;
+    font-family: 'Lato', sans-serif;
+    background-color: #b7cadd;
+}
+
+.addplayer-btn{
+    width: 107px;
+    height: 42px;
+    background: rgb(62 143 147);
+    border : 4px rgb(16, 82, 93) solid;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+
+
+
+.addplayer-btn:hover{
+    color: #1a150e;
+}
