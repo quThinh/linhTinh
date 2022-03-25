@@ -15,12 +15,11 @@
     height: 50px;
     font-size: 25px;
     font-weight: bold;
-    margin: auto;
     font-family: 'Lato', sans-serif;
     text-align: center;
     display: inline;
-    padding-top: 13px;
-    margin-left: 18px;
+    padding-top: 22px;
+    margin-left: 37px;
 }
 
 
@@ -42,12 +41,12 @@
     outline: none;
     padding-left: 0px;
     font-size: 17px;
-    width: 107px;
+    width: 81px;
     height: 42px;
     margin-top: 22px;
     background: rgb(62 143 147);
     border : 4px rgb(16, 82, 93) solid;
-    margin-left: 35px;
+    margin-left: 15px;
     color: aliceblue;
 }
 
@@ -118,18 +117,51 @@
 }
 
 .addplayer-btn{
-    width: 107px;
+    width: 81px;
     height: 42px;
     background: rgb(62 143 147);
     border : 4px rgb(16, 82, 93) solid;
     font-size: 17px;
     color: aliceblue;
-    margin-left: 35px;
+    margin-left: 15px;
+    display: inline;
+}
+.delplayer-btn{
+    width: 81px;
+    height: 42px;
+    background: rgb(231, 62, 62);
+    border : 4px rgb(0, 0, 0) solid;
+    font-size: 17px;
+    color: rgb(255, 240, 240);
+    margin-left: 15px;
+    display: inline;
 }
 
+.weight-color{
+    background-color: #AEB1B4;
+}
 
+.text{
+    text-align: center;
+}
 
+.td{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.th{
+    font-family: 'Lato', sans-serif;
+}
 
 .addplayer-btn:hover{
     color: #1a150e;
+}
+
+.history{
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color: #125480;
+    margin-left: 10px;
+    text-decoration: underline;
 }
