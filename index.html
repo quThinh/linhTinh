@@ -19,8 +19,8 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="#">Le Team</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -35,7 +35,7 @@
                     <a class="nav-link" href="#">Instruction</a>
                 </li>
             </ul>
-            
+
         </div>
     </nav>
     <article>
@@ -48,7 +48,7 @@
             <div class="addplayer">
                 <input class="addplayer-name" type="text" placeholder="Name">
                 <button class="addplayer-btn" type="submit"><i class="fa-solid fa-check"> Set</i></button>
-                <button class="delplayer-btn" type="submit"><i class="fa-solid fa-check"> Del</i></button>
+                <button class="delplayer-btn" type="submit"><i class="fa-solid fa-trash-can"> Del</i></button>
             </div>
         </article>
 
@@ -64,7 +64,12 @@
         </div>
     </article>
     <article>
-        <div class="container" ><button type="button" onclick="update()" class="btn btn-outline-primary" style="font-weight: bold; background-color: rgb(65, 166, 197); color: rgb(255, 255, 255); margin-left: 163px;">Update</button></div>
+        <div class="container">
+            <button type="button" onclick="update()" class="btn btn-outline-primary"
+                style="font-weight: bold; background-color: rgb(65, 166, 197); color: rgb(255, 255, 255); margin-left: 163px;">
+                <i class="fa-solid fa-box-archive"> Update</i>
+            </button>
+        </div>
         <div class="history">Lịch sử cược</div>
         <table class="table table-striped table-inverse table-responsive">
             <thead class="thead-inverse">
