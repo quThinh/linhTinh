@@ -25,7 +25,7 @@
 
 .player-input{
     border-collapse: collapse;
-    width: 190px;
+    width: 150px;
     height: 55px;
     border: 1px solid #ddd;
     display: flex;
@@ -106,7 +106,7 @@
 
 .addplayer-name{
     border-collapse: collapse;
-    width: 100px;
+    width: 150px;
     height: 55px;
     border: 1px solid #ddd;
     display: inline;
