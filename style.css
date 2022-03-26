@@ -56,7 +56,7 @@
 }
 
 .name{
-    width: 70px;
+    width: 162px;
     font-family: 'Lato', sans-serif;
     margin: auto 20px;
     display: inline-block;
@@ -165,4 +165,17 @@
     color: #125480;
     margin-left: 10px;
     text-decoration: underline;
+}
+
+
+.card-text{
+    display: inline;
+    font-family: 'Lato', sans-serif;
+}
+.card-text button{
+    background-color: #4e91d4;
+    border: 3px #1a150e solid;
+    margin: 0px 15px;
+    color: #ffffff;
+    font-weight: bold;
 }
